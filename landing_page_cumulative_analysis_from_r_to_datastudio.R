@@ -11,7 +11,7 @@ library(bigrquery)
 ga_auth()
 
 #### Setting the view Id for the analysis ----
-view_id <- 188527704
+view_id <- add your view id
 
 #### Pull the data from google analytics ----
 gadata <- google_analytics_4(view_id,
@@ -63,7 +63,7 @@ library("devtools")
 install_github(repo="domoinc-r/DomoR")
 install.packages(domo)
 
-domo_token <- "4eb8778c60cfc8f61bfdec46d9eed6ca4cff75eb702e7aa5"
+domo_token <- "add token"
 
 DomoR::init('mashmetrics', domo_token)
 
