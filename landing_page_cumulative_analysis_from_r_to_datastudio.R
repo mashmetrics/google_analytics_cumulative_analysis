@@ -68,4 +68,4 @@ domo_token <- "4eb8778c60cfc8f61bfdec46d9eed6ca4cff75eb702e7aa5"
 DomoR::init('mashmetrics', domo_token)
 
 DomoR::create(data = gadata, name = "Cumulative Analysis")
-DomoR::replace_ds(data = gadata, data_source_id = "b2f9ac3e-3b26-4af5-b9a2-c1001e291a79")
+DomoR::replace_ds(data = gadata, data_source_id = "add your token")
